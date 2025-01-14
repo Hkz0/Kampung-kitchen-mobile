@@ -1,0 +1,39 @@
+    /* Make the navbar sticky at the top */
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/login.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Ensure the background stays behind content */
+}
+
+/* Navbar logo styling */
+.navbar-logo {
+    height: 40px;  /* Adjust height as needed */
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Ensure the navbar brand text stays aligned with logo */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-logo {
+        height: 30px;  /* Slightly smaller on mobile */
+    }
+}

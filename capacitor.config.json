@@ -1,0 +1,9 @@
+{
+  "appId": "com.hkz0.kampungkitchen",
+  "appName": "Kampung Kitchen",
+  "webDir": "www",
+  "server": {
+    "url": "http://england-uganda.gl.at.ply.gg:52812/kampungKitchen/",
+    "cleartextTraffic": true
+  }
+}

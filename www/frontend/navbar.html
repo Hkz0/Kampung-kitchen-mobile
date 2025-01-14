@@ -1,0 +1,84 @@
+<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: rgb(146, 135, 135);">
+    <div class="container-fluid">
+        <!-- Brand with logo on the left -->
+        <a class="navbar-brand d-flex align-items-center" href="dashboard.html">
+            <img src="img/navbar.png" alt="Kampung Kitchen Logo" class="navbar-logo">
+            <span class="ms-2">KAMPUNG KITCHEN</span>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar items with proper alignment -->
+        <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+            <div class="d-flex justify-content-between w-100">
+                <!-- Centered category items from MELAYU to SARAWAK -->
+                <div class="d-flex justify-content-center w-90">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="ethnic_recipes.html?ethnic_id=1">MELAYU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ethnic_recipes.html?ethnic_id=2">CINA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ethnic_recipes.html?ethnic_id=3">INDIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ethnic_recipes.html?ethnic_id=4">SARAWAK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ethnic_recipes.html?ethnic_id=5">SABAH</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right-aligned items -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item" id="upload-recipe-link">
+                        <a class="nav-link" href="upload_recipe.html">Upload Recipe</a>
+                    </li>
+                    <li class="nav-item" id="my-account-link">
+                        <a class="nav-link" href="account.html">My Account</a>
+                    </li>
+                    <li class="nav-item" id="login-link">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item" id="register-link">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<style>
+    .navbar-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    @media (max-width: 768px) {
+        .navbar-logo {
+            width: 40px;
+            height: 40px;
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 0.9rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .navbar-logo {
+            width: 30px;
+            height: 30px;
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 0.8rem;
+        }
+    }
+</style>

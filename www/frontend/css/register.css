@@ -1,0 +1,65 @@
+.register-text{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(42, 106, 41);
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.form-group{
+    color: rgb(203, 186, 39);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.form-control{
+    background-color: rgb(249, 245, 245);
+}
+
+.mt-3{
+    color: black;
+}
+
+/* Texter class styling */
+.texter {
+    color: rgb(85, 174, 122);
+    background-color: bisque;
+    text-align: center;
+    display: block;  /* Makes the element block-level */
+    width: 100%;     /* Takes full width of container */
+    margin: 0 auto;  /* Centers the element */
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 5px 0;  /* Add some vertical padding */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .register-text {
+        font-size: 50px;
+    }
+
+    .form-group {
+        font-size: 18px;
+    }
+
+    .texter {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .register-text {
+        font-size: 40px;
+    }
+
+    .form-group {
+        font-size: 16px;
+    }
+
+    .texter {
+        font-size: 0.9rem;
+    }
+}

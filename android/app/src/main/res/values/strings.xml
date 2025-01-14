@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Kampung Kitchen</string>
+    <string name="title_activity_main">Kampung Kitchen</string>
+    <string name="package_name">com.hkz0.kampungkitchen</string>
+    <string name="custom_url_scheme">com.hkz0.kampungkitchen</string>
+</resources>
